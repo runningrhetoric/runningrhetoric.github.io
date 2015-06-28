@@ -11,3 +11,7 @@ github_username:  runningrhetoric
 # Build settings
 markdown: kramdown
 
+#exclude node_modules due to deep node_modules nesting errors
+#https://github.com/shakyShane/jekyll-gulp-sass-browser-sync/issues/2
+exclude:
+- node_modules
